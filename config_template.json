@@ -1,0 +1,18 @@
+{
+	"platforms": {
+		"chatgpt": {
+			"api_key": "{OPENAI_API_KEY_HERE}",
+			"model": "gpt-3.5-turbo",
+			"temperature": 1.0,
+			"max_tokens": 2048,
+			"context": "Please answer from the perspective and in the same linguistic style as _______, a ____________. Please do your best to keep your answers to one thousand characters or less. It is important you role-play as this character and stay in first person. Err on the side of making concrete descisions, and typically keep answers relatively short unless providing some additional flavor to your dialog. For background: ______________________."
+		},
+		"elevenlabs": {
+			"api_key": "{ELEVENLABS_API_KEY_HERE}",
+			"ai_model": "eleven_monolingual_v1",
+			"voice": "{VOICE_NAME_HERE}"
+		}
+	},
+	"detection_key": "q",
+	"recording_max_seconds": 120
+}

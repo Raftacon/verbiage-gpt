@@ -1,0 +1,6 @@
+elevenlabs==0.2.16
+loguru==0.7.0
+keyboard==0.13.5
+openai==0.27.6
+PyAudio==0.2.13
+SpeechRecognition==3.10.0

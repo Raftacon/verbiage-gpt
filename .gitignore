@@ -1,0 +1,5 @@
+# Keep local non-template configuration files out:
+config.json
+
+# Exclude temporary recordings:
+*.wav
